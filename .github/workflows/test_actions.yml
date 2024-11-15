@@ -1,0 +1,15 @@
+name: Asimple Docker action
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+jobs:
+  user-and-time:
+    runs-on: self-hosted
+    name: Running a simple Bash script
+    steps:
+      - name: A simple bash script
+        id: BASH
+        uses:
+          agbleze/a-docker-action@master
