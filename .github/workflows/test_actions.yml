@@ -12,4 +12,4 @@ jobs:
       - name: A simple bash script
         id: BASH
         uses:
-          agbleze/a-docker-action@master
+          agbleze/a-docker-action@main
