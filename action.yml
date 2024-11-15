@@ -4,4 +4,4 @@ description: "Simply running a bash script and showing the time it executed"
 
 runs:
   using: "docker"
-  main: "Dockerfile"
+  image: "Dockerfile"
